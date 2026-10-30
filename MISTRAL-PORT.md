@@ -21,13 +21,9 @@ Notebook reaches the agentbox servers via SSH tunnel (servers bind 127.0.0.1). A
 | barehands ring mirrored via Claude Code hooks in settings.json | Vibe hooks in .vibe/hooks.toml (pre_tool etc.) write state/state and call bin/board.sh |
 | Claude usage shown on faces | Not available; ignore that HUD element |
 
-## Porting status
+## Work plan
 
-- [x] Phase 0: forked, branch mistral-port
-- [ ] Phase 1: brain on agentbox (AGENTS.md, Vibe CLI)
-- [ ] Phase 2: face + hands servers on agentbox, hooks wired, SSH tunnels
-- [ ] Phase 3: backtalk port on notebook (the real coding work)
-- [ ] Phase 4: German voice quality, permission flow, hardening
+The executable, phased task list lives in [PORT-PLAN.md](PORT-PLAN.md) — work through it top to bottom, one task at a time. Check off completed tasks and commit to the mistral-port branch. Tasks marked [ASK] require user input first.
 
 ## Conventions for this fork
 
